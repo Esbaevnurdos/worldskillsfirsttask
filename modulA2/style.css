@@ -1,0 +1,786 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url(img/background.png); */
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px 80px;
+  background-color: white;
+}
+
+header img {
+  height: 60px;
+  width: auto;
+}
+
+header nav i {
+  font-size: 16px;
+  display: block;
+}
+
+header nav {
+  text-align: center;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+}
+
+header nav a:hover {
+  color: #d77474;
+  transition: 0.5s ease;
+}
+
+header .menu {
+  display: none;
+}
+
+.mainhome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px 50px;
+  background-image: url(img/background.png);
+}
+
+.mainhome .imghome img {
+  height: 400px;
+  width: auto;
+}
+
+.mainhome .texthome .pom {
+  color: #d77474;
+}
+
+.mainhome .texthome h1 {
+  font-size: 35px;
+  font-weight: bold;
+  width: 400px;
+}
+
+.mainhome .texthome p {
+  color: gray;
+}
+
+.mainhome .texthome {
+  width: 500px;
+}
+
+.mainhome .texthome button {
+  font-size: 12px;
+}
+
+.mainhome .texthome button {
+  width: 210px;
+  height: 50px;
+  border: none;
+  background-color: #ac1313;
+  color: white;
+}
+
+footer {
+  background-color: white;
+  padding-top: 40px;
+}
+
+footer .footertop img {
+  height: 50px;
+  width: 100px;
+}
+
+footer .footertop p {
+  font-size: 12px;
+  width: 340px;
+  text-align: center;
+  color: gray;
+}
+
+footer .footertop {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.mainfooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.mainfooter img {
+  width: 40px;
+  height: auto;
+}
+
+.mainfooter .erekshe {
+  font-size: 12px;
+  color: gray;
+  width: 140px;
+  text-align: center;
+}
+
+.footbottom p {
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 40px;
+  background-color: rgb(244, 243, 243);
+  align-items: center;
+}
+
+/* about page */
+
+.aboutmainpage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 60px 0px;
+}
+
+.aboutmainpage .titlemain {
+  text-align: center;
+}
+
+.aboutmainpage .titlemain p {
+  text-align: center;
+  color: #d77474;
+}
+
+.aboutmainpage .titlemain h1 {
+  text-align: center;
+
+  font-size: 30px;
+}
+
+.aboutmainpage .circlesmain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 70px 0px;
+}
+
+.aboutmainpage .circlesmain img {
+  width: 17%;
+  display: flex;
+}
+
+.aboutmainpage .textmain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 0px;
+}
+
+.aboutmainpage .textmain .lefttextmain {
+  width: 40%;
+}
+
+.aboutmainpage .textmain .lefttextmain h1 {
+  width: 350px;
+  font-size: 35px;
+}
+
+.aboutmainpage .textmain .lefttextmain p {
+  font-size: 15px;
+  color: gray;
+  width: 400px;
+}
+
+.aboutmainpage .textmain .righttextmain {
+  width: 40%;
+}
+
+.aboutmainpage .textmain .righttextmain p {
+  font-size: 15px;
+  color: gray;
+  width: 400px;
+}
+
+.aboutmainpage .textmain .righttextmain h1 {
+  width: 350px;
+  font-size: 35px;
+}
+
+/* shop */
+
+.shopmain {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.shopmain .topshopmain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.shopmain .bottomshopmain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.shopmain .topshopmain img {
+  height: 500px;
+  width: auto;
+}
+
+.shopmain .topshopmain .texttop {
+  width: 500px;
+  height: auto;
+}
+
+.shopmain .topshopmain .texttop h1 {
+  font-size: 40px;
+}
+
+.shopmain .topshopmain .texttop p {
+  color: gray;
+}
+
+.shopmain .bottomshopmain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.shopmain .bottomshopmain img {
+  height: 500px;
+  width: auto;
+}
+
+.shopmain .bottomshopmain .textbottom {
+  width: 500px;
+  height: auto;
+}
+
+.shopmain .bottomshopmain .textbottom h1 {
+  font-size: 40px;
+}
+
+.shopmain .bottomshopmain .textbottom p {
+  color: gray;
+}
+
+/* contact */
+
+.collection .gridimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+}
+
+.collection .titlecollection {
+  text-align: center;
+}
+.collection .titlecollection p {
+  color: #d77474;
+}
+
+.collection .titlecollection h1 {
+  font-size: 35px;
+}
+
+.collection .gridimages img {
+  height: 500px;
+  width: auto;
+}
+
+.collection .buttoncontact {
+  align-items: center;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.collection .buttoncontact .view {
+  border: none;
+  padding: 20px 50px;
+  background-color: #ac1313;
+  color: white;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+  }
+
+  header nav a {
+    color: black;
+    display: none;
+  }
+
+  header .menu {
+    display: block;
+    font-size: 23px;
+  }
+
+  .mainhome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 50px;
+    background-image: url(img/background.png);
+  }
+
+  .mainhome .imghome img {
+    height: auto;
+    width: 100%;
+    padding: 50px 0px;
+  }
+
+  .mainhome .texthome .pom {
+    color: #d77474;
+  }
+
+  .mainhome .texthome h1 {
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+  }
+
+  .mainhome .texthome p {
+    color: gray;
+  }
+
+  .mainhome .texthome {
+    width: 100%;
+    height: auto;
+  }
+
+  .mainhome .texthome button {
+    font-size: 12px;
+  }
+
+  .mainhome .texthome button {
+    width: 60%;
+    height: 40px;
+    border: none;
+    background-color: #ac1313;
+    color: white;
+  }
+
+  .mainhome .imghome img {
+    height: auto;
+    width: 100%;
+  }
+
+  .aboutmainpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+  }
+
+  .aboutmainpage .titlemain {
+    text-align: center;
+  }
+
+  .aboutmainpage .titlemain p {
+    text-align: center;
+    color: #d77474;
+  }
+
+  .aboutmainpage .titlemain h1 {
+    text-align: center;
+
+    font-size: 30px;
+  }
+
+  .aboutmainpage .circlesmain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 0px;
+  }
+
+  .aboutmainpage .circlesmain img {
+    width: 27%;
+    display: flex;
+  }
+
+  .aboutmainpage .textmain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutmainpage .textmain .lefttextmain {
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .lefttextmain h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .lefttextmain p {
+    font-size: 15px;
+    color: gray;
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .righttextmain {
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .righttextmain p {
+    font-size: 15px;
+    color: gray;
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .righttextmain h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  /* shop */
+
+  .shopmain {
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 0px;
+  }
+
+  .shopmain .topshopmain {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 0px 0px;
+  }
+
+  .shopmain .bottomshopmain {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 0px 0px;
+  }
+
+  .shopmain .topshopmain img {
+    height: auto;
+    width: 50%;
+  }
+
+  .shopmain .topshopmain .texttop {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .shopmain .topshopmain .texttop h1 {
+    font-size: 40px;
+  }
+
+  .shopmain .topshopmain .texttop p {
+    color: gray;
+  }
+
+  .shopmain .bottomshopmain {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px 0px;
+  }
+
+  .shopmain .bottomshopmain img {
+    width: 60%;
+    height: auto;
+  }
+
+  .shopmain .bottomshopmain .textbottom {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .shopmain .bottomshopmain .textbottom h1 {
+    font-size: 40px;
+  }
+
+  .shopmain .bottomshopmain .textbottom p {
+    color: gray;
+  }
+
+  /* collection */
+
+  .collection .gridimages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .collection .titlecollection {
+    text-align: center;
+  }
+  .collection .titlecollection p {
+    color: #d77474;
+  }
+
+  .collection .titlecollection h1 {
+    font-size: 35px;
+  }
+
+  .collection .gridimages img {
+    height: 500px;
+    width: auto;
+  }
+
+  .collection .buttoncontact {
+    align-items: center;
+    text-align: center;
+    padding: 40px 0px;
+  }
+
+  .collection .buttoncontact .view {
+    border: none;
+    padding: 20px 50px;
+    background-color: #ac1313;
+    color: white;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+  }
+
+  header nav a {
+    color: black;
+    display: none;
+  }
+
+  header .menu {
+    display: block;
+    font-size: 23px;
+  }
+
+  .mainhome {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    padding: 40px 50px;
+  }
+
+  .mainhome .imghome img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mainhome .texthome h1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .mainhome .texthome p {
+    color: gray;
+  }
+
+  .mainhome .texthome {
+    width: 100%;
+    height: auto;
+  }
+
+  .mainhome .texthome button {
+    font-size: 12px;
+  }
+  /* 
+  main */
+
+  .aboutmainpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 70px 0px;
+  }
+
+  .aboutmainpage .titlemain {
+    text-align: center;
+  }
+
+  .aboutmainpage .titlemain p {
+    text-align: center;
+    color: #d77474;
+  }
+
+  .aboutmainpage .titlemain h1 {
+    text-align: center;
+
+    font-size: 30px;
+  }
+
+  .aboutmainpage .circlesmain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+  }
+
+  .aboutmainpage .circlesmain img {
+    width: 70%;
+  }
+
+  .aboutmainpage .textmain {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 0px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutmainpage .textmain .lefttextmain {
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .lefttextmain h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .lefttextmain p {
+    font-size: 15px;
+    color: gray;
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .righttextmain {
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .righttextmain p {
+    font-size: 15px;
+    color: gray;
+    width: 100%;
+  }
+
+  .aboutmainpage .textmain .righttextmain h1 {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  /* shop */
+
+  .shopmain {
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 0px;
+  }
+
+  .shopmain .topshopmain {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 0px 0px;
+  }
+
+  .shopmain .bottomshopmain {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 0px 0px;
+  }
+
+  .shopmain .topshopmain img {
+    height: auto;
+    width: 50%;
+  }
+
+  .shopmain .topshopmain .texttop {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .shopmain .topshopmain .texttop h1 {
+    font-size: 40px;
+  }
+
+  .shopmain .topshopmain .texttop p {
+    color: gray;
+  }
+
+  .shopmain .bottomshopmain {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px 0px;
+  }
+
+  .shopmain .bottomshopmain img {
+    width: 60%;
+    height: auto;
+  }
+
+  .shopmain .bottomshopmain .textbottom {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .shopmain .bottomshopmain .textbottom h1 {
+    font-size: 40px;
+  }
+
+  .shopmain .bottomshopmain .textbottom p {
+    color: gray;
+  }
+}
