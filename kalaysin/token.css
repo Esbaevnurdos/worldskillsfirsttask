@@ -75,71 +75,41 @@ header #menu {
 
 /* main */
 
-.workspace {
-  padding: 50px 150px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
+.token h1 {
+  font-size: 30px;
 }
 
-.select {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid;
-  width: 570px;
-  border-radius: 3px;
-  padding: 20px 20px;
-  row-gap: 30px;
+.token {
+  height: 50vh;
+  background-color: white;
+  margin: 100px 0px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.066);
+  padding: 10px 30px;
 }
 
-.new {
-  font-size: 40px;
-}
-
-.image {
-  width: 600px;
-  height: 250px;
-  background-color: rgb(232, 232, 232);
-}
-
-.image h1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 100px;
-}
-
-.sumbit {
+.token .accesstoken {
   display: flex;
   flex-direction: row;
-  text-align: end;
-  align-items: end;
-  padding: 0px 200px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  row-gap: 40px;
+  column-gap: 100px;
 }
 
-.sumbit p {
-  border: 2px solid #ec7323;
-  padding: 15px 50px;
-  border-radius: 5px;
-  margin-right: 40px;
+.token .accesstoken input {
+  width: 340px;
+  height: 35px;
 }
 
-.sumbit .save {
-  background-color: #ec7323;
-  color: white;
-}
-
-.workspace .salem .name {
-  width: 600px;
+.token button {
+  margin-top: 25px;
+  width: 200px;
   height: 40px;
-}
-
-.workspace .salem .description {
-  width: 600px;
-  padding-bottom: 50px;
+  border: none;
+  background-color: #ec7323;
+  border-radius: 5px;
+  color: white;
 }
 
 /* footer */
