@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(248, 255, 255, 1);
+}
+
+* {
+  font-family: sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 100px;
+  height: 12vh;
+  align-items: center;
+}
+
+header img {
+  height: 55px;
+  width: auto;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+header nav li {
+  list-style: none;
+}
+
+header nav li .signin {
+  color: rgb(58, 57, 57);
+  font-weight: bold;
+  border: 2px solid #ec7323;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+header nav li .signup {
+  color: white;
+  font-weight: bold;
+  background-color: #ec7323;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+header #menu {
+  display: none;
+  font-size: 35px;
+}
+
+/* HOMEMAINPAGE */
+
+.homemain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.homemain .homemainleft {
+  margin-bottom: 50px;
+}
+
+.homemain .homemainleft h1 {
+  font-size: 60px;
+  width: 500px;
+  text-align: start;
+}
+
+.homemain .homemainleft p {
+  width: 450px;
+  margin-bottom: 30px;
+}
+
+.homemain .signup {
+  color: white;
+  font-weight: bold;
+  background-color: #ec7323;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.homemain .homemainright img {
+  height: 550px;
+  width: auto;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 40px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+footer .top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+footer .logo img {
+  height: 60px;
+  width: auto;
+}
+
+footer .top .logo img {
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  height: auto;
+}
+
+footer .logo i {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+footer .recourcefooter p {
+  color: gray;
+  font-size: 14px;
+}
+
+footer .legalfooter p {
+  color: gray;
+  font-size: 14px;
+}
+
+footer .textbottom {
+  text-align: center;
+  font-size: 15px;
+}
+
+footer .homebottomfooter {
+  text-align: center;
+  font-size: 14px;
+}
+
+footer .homebottomfooter p {
+  margin: 0;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 1058px) {
+  header {
+    padding: 0px 20px;
+  }
+  header nav {
+    display: none;
+  }
+
+  header #menu {
+    display: block;
+    font-size: 35px;
+  }
+
+  /* HOMEMAIN */
+
+  .homemain {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+  }
+
+  .homemain .homemainleft {
+    padding: 0px 10px;
+  }
+
+  .homemain .homemainleft h1 {
+    font-size: 60px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .homemain .homemainleft p {
+    width: 100%;
+    text-align: start;
+  }
+
+  .homemain .homemainright img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  footer .top .logo img {
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: auto;
+  }
+
+  footer .homebottomfooter p {
+    margin: 0;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  header {
+    padding: 0px 20px;
+  }
+  header nav {
+    display: none;
+  }
+
+  header #menu {
+    display: block;
+    font-size: 35px;
+  }
+
+  /* HOMEMAIN */
+
+  .homemain {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+  }
+
+  .homemain .homemainleft {
+    padding: 0px 10px;
+  }
+
+  .homemain .homemainleft h1 {
+    font-size: 60px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .homemain .homemainleft p {
+    width: 100%;
+    text-align: start;
+  }
+
+  .homemain .homemainright img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  footer .top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .top .logo img {
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: auto;
+  }
+
+  footer .homebottomfooter p {
+    margin: 0;
+    padding-top: 40px;
+  }
+}
