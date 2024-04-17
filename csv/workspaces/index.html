@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workspace Management</title>
+  </head>
+  <body>
+    <h1>Create Workspace</h1>
+    <form id="createWorkspaceForm">
+      <label for="title">Title:</label><br />
+      <input
+        type="text"
+        id="title"
+        name="title"
+        required
+        maxlength="100"
+      /><br />
+      <label for="description">Description:</label><br />
+      <textarea id="description" name="description"></textarea><br />
+      <button type="submit">Create</button>
+    </form>
+
+    <h1>Edit Workspace</h1>
+    <form id="editWorkspaceForm">
+      <label for="editTitle">Title:</label><br />
+      <input
+        type="text"
+        id="editTitle"
+        name="editTitle"
+        required
+        maxlength="100"
+      /><br />
+      <label for="editDescription">Description:</label><br />
+      <textarea id="editDescription" name="editDescription"></textarea><br />
+      <button type="submit">Edit</button>
+    </form>
+
+    <h1>My Workspaces</h1>
+    <ul id="workspacesList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>

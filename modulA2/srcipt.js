@@ -1,11 +1,6 @@
 const menu = document.getElementById("menu");
-const nav = document.getElementById("nav");
+const navbar = document.getElementById("mobile");
 
-
-menu.onclick() = function() {
-    nav.style.display = 'block'
+function openSide() {
+  navbar.classList.toggle("show");
 }
-
-
-
-

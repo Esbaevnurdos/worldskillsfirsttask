@@ -12,31 +12,31 @@
       id="sheetdb-form"
     >
       <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="data[fname]" value="John" /><br />
+      <input type="text" id="fname" name="data[name]" value="John" /><br />
       <label for="lname">Last name:</label><br />
       <input
         type="text"
         id="lname"
-        name="data[lname]"
+        name="data[password]"
         value="Doe"
       /><br /><br />
       <input type="submit" value="Submit" />
     </form>
 
     <script>
-      var form = document.getElementById("sheetdb-form");
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        fetch(form.action, {
-          method: "POST",
-          body: new FormData(document.getElementById("sheetdb-form")),
-        })
-          .then((response) => response.json())
-          .then((html) => {
-            // you can put any JS code here
-            window.open("page2.html", "_blank");
-          });
-      });
+      // var form = document.getElementById("sheetdb-form");
+      // form.addEventListener("submit", (e) => {
+      //   e.preventDefault();
+      //   fetch(form.action, {
+      //     method: "POST",
+      //     body: new FormData(document.getElementById("sheetdb-form")),
+      //   })
+      //     .then((response) => response.json())
+      //     .then((html) => {
+      //       // you can put any JS code here
+      //       window.open("page2.html", "_blank");
+      //     });
+      // });
     </script>
   </body>
 </html>
